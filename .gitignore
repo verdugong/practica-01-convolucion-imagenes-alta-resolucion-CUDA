@@ -1,0 +1,17 @@
+/build*/
+/bin/
+__pycache__/
+*.pyc
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+# No publicar automaticamente originales grandes.
+data/originales/*
+!data/originales/.gitkeep
+# Los CSV y el codigo SI deben versionarse al preparar la entrega.
+results/**/*.pgm
+

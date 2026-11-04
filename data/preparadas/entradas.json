@@ -1,0 +1,38 @@
+{
+  "origen": "PENDIENTE: indicar autor, fuente y permiso de uso",
+  "preparacion_previa": "PENDIENTE: documentar recorte comun y metodo de redimensionamiento ya realizado",
+  "conversion": "Orientacion EXIF; transparencia sobre blanco; Pillow convert L (luma RGB 0.299R+0.587G+0.114B), 8 bits; PGM P5 maxval 255. Sin recorte ni redimensionamiento.",
+  "pillow": "12.3.0",
+  "entradas": [
+    {
+      "dimensiones": [
+        2000,
+        2000
+      ],
+      "original": "C:\\Users\\Oficina\\Documents\\practica1_cuda\\data\\originales\\foto_2000.jpg",
+      "sha256_original": "a771fb9118a948ea3475a0aa080f8715f1d9848dda70947a1d54ad73cce1d3b1",
+      "pgm": "imagen_2000.pgm",
+      "sha256_pgm": "62a8a9d73f8d64840c110c26d028cac76da07d0b0525381d509968d86b290c63"
+    },
+    {
+      "dimensiones": [
+        4000,
+        4000
+      ],
+      "original": "C:\\Users\\Oficina\\Documents\\practica1_cuda\\data\\originales\\foto_4000.jpg",
+      "sha256_original": "f2edcf050023681b64f92b3c8a63148540ad061a183fd1c0adca58a94719d4f1",
+      "pgm": "imagen_4000.pgm",
+      "sha256_pgm": "692aabbb9a429ccbd995923a275b03f2acd55281025a457aac80ad9e75a2a241"
+    },
+    {
+      "dimensiones": [
+        6000,
+        6000
+      ],
+      "original": "C:\\Users\\Oficina\\Documents\\practica1_cuda\\data\\originales\\foto_6000.jpg",
+      "sha256_original": "e7970a79092ffc652825161702f938d4a41b466d2c29b6aed871a63c232ddc1f",
+      "pgm": "imagen_6000.pgm",
+      "sha256_pgm": "8bfec402f70f587c284201845af86a64507777d1b4e32606125b07c89d606707"
+    }
+  ]
+}

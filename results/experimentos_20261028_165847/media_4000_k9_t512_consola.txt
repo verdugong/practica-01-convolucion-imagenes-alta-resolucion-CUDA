@@ -1,0 +1,23 @@
+GPU: NVIDIA GeForce RTX 3070
+VRAM total MiB: 8191.5
+Compute capability: 8.6
+CUDA runtime: 12090
+CUDA driver API: 13000
+Compilador NVCC: 12.9.86
+Hilos por bloque: 512
+Bloques en X: 31250
+Filtro: media 9x9
+Imagen: 4000x4000
+Repeticion 1: CPU=685.398 ms, kernel=2.02784 ms, error max=0
+Repeticion 2: CPU=688.036 ms, kernel=2.02746 ms, error max=0
+Repeticion 3: CPU=683.33 ms, kernel=2.23408 ms, error max=0
+Repeticion 4: CPU=682.856 ms, kernel=2.0273 ms, error max=0
+Repeticion 5: CPU=690.441 ms, kernel=2.11533 ms, error max=0
+cpu: mediana=685.398 ms, IQR=4.706
+h2d: mediana=7.2098 ms, IQR=0.041
+kernel: mediana=2.02784 ms, IQR=0.087872
+d2h: mediana=7.0562 ms, IQR=0.4081
+total_gpu: mediana=16.5371 ms, IQR=0.1584
+proporcion_transferencias: mediana=87.5 porcentaje, IQR=0.202607
+VALIDACION CPU-GPU CORRECTA
+Resultados guardados con prefijo: results\experimentos_20261028_165847\media_4000_k9_t512

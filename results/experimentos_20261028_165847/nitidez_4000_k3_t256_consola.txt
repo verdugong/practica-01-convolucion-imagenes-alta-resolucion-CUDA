@@ -1,0 +1,23 @@
+GPU: NVIDIA GeForce RTX 3070
+VRAM total MiB: 8191.5
+Compute capability: 8.6
+CUDA runtime: 12090
+CUDA driver API: 13000
+Compilador NVCC: 12.9.86
+Hilos por bloque: 256
+Bloques en X: 62500
+Filtro: nitidez 3x3
+Imagen: 4000x4000
+Repeticion 1: CPU=71.1294 ms, kernel=0.360512 ms, error max=0
+Repeticion 2: CPU=72.9492 ms, kernel=0.360448 ms, error max=0
+Repeticion 3: CPU=74.5362 ms, kernel=0.449024 ms, error max=0
+Repeticion 4: CPU=70.9484 ms, kernel=0.36944 ms, error max=0
+Repeticion 5: CPU=72.2205 ms, kernel=0.447264 ms, error max=0
+cpu: mediana=72.2205 ms, IQR=1.8198
+h2d: mediana=7.5747 ms, IQR=0.5347
+kernel: mediana=0.36944 ms, IQR=0.086752
+d2h: mediana=7.3641 ms, IQR=0.2827
+total_gpu: mediana=15.156 ms, IQR=0.6158
+proporcion_transferencias: mediana=97.4426 porcentaje, IQR=0.51251
+VALIDACION CPU-GPU CORRECTA
+Resultados guardados con prefijo: results\experimentos_20261028_165847\nitidez_4000_k3_t256

@@ -1,0 +1,33 @@
+Inicio UTC: 2026-10-28T21:59:29Z
+Entrada: C:\Users\Oficina\Documents\practica1_cuda\data\preparadas\imagen_4000.pgm
+Ancho: 4000
+Alto: 4000
+Filtro: media
+Mascara: 9
+Repeticiones: 5
+Calentamiento: 1 ejecucion CPU y 1 GPU (si esta habilitada)
+Compilador CPU: MSVC 1944
+Procesadores logicos detectados: 24
+Tipo numerico: float32, intensidades 0..255
+Bordes: ceros; media con denominador k*k fijo
+Tolerancia absoluta: 0.001
+Memoria host: pageable; reservas previas excluidas
+Validacion y E/S de archivos: excluidas del tiempo
+CPU: steady_clock; kernel: eventos CUDA
+Transferencias: steady_clock + finalizacion
+Total GPU: reloj host, incluye instrumentacion y sincronizacion
+Visualizacion: media/nitidez saturacion [0,255]; laplaciano saturar(abs(L),0,255); redondeo. Misma escala CPU/GPU
+Orden CPU/GPU: alternado entre repeticiones
+CPU: Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+GPU: NVIDIA GeForce RTX 3070
+VRAM total MiB: 8191.5
+Compute capability: 8.6
+CUDA runtime: 12090
+CUDA driver API: 13000
+Compilador NVCC: 12.9.86
+Hilos por bloque: 128
+Bloques en X: 125000
+Aceleracion computo (cociente medianas): 332.575032231
+Aceleracion con transferencias (cociente medianas): 41.3513282384
+Peor error absoluto: 0
+Estado: finalizado correctamente
